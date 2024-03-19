@@ -1,0 +1,7 @@
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      user: leehyeonji0730
+      database: mydatabase
