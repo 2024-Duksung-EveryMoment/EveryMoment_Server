@@ -1,5 +1,10 @@
 spring:
-  data:
-    mongodb:
-      uri: mongodb+srv://newthang:<password>@mycluster.u2u6dsd.mongodb.net/?retryWrites=true&w=majority&appName=MyCluster
-      database: myCluster
+  datasource:
+    url: jdbc:mysql://localhost:3306/hereO
+    username: root
+    password: hyeonji2002
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: create
